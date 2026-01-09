@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #e6f4e6;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #2f8f2f;
+    font-size: 36px;
+}
+
+header .logo {
+    width: 120px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2f8f2f;
+    font-weight: bold;
+}
+
+/* Hero */
+#hero {
+    background-color: #ccf0cc;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#hero h2 {
+    color: #2f8f2f;
+    font-size: 40px;
+}
+
+#hero p {
+    color: #555;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #2f8f2f;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #248024;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    color: #2f8f2f;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    color: #555;
+    font-size: 18px;
+}
+
+/* Leistungen */
+#services ul {
+    list-style: none;
+    text-align: center;
+}
+
+#services ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Blog */
+.blog-posts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.post {
+    width: 30%;
+    max-width: 300px;
+    background-color: #e6f4e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.post h3 {
+    color: #2f8f2f;
+    margin-bottom: 10px;
+}
+
+.post-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    color: #2f8f2f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    color: #248024;
+    text-decoration: underline;
+}
+
+/* Kontaktformular */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f0f8f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2f8f2f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #248024;
+}
+
+/* Footer */
+footer {
+    background-color: #2f8f2f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer .siegel, footer .badge-icon {
+    max-width: 150px;
+    margin: 10px;
+}
+
+/* Badge Box */
+#badge {
+    background-color: #f0f8f1;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.badge-icon {
+    width: 150px;
+    margin: 10px 0;
+}
