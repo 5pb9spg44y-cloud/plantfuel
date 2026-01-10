@@ -219,3 +219,15 @@ footer .siegel, footer .badge-icon {
     width: 150px;
     margin: 10px 0;
 }
+
+.certificate {
+  margin-top: 20px;
+}
+
+.certificate img {
+  transition: transform 0.3s ease;
+}
+
+.certificate img:hover {
+  transform: scale(1.05);
+}
